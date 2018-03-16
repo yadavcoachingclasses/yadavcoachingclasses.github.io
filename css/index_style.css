@@ -1,0 +1,241 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #5d5d5d;
+    font-size: 18px;
+    line-height: 28px;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbarstyle {
+    padding: 2px;
+    background-color:#3b9ad7;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#navbarDropdown {
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    margin: 7px;
+}
+
+.navbar-collapse {
+    flex-basis: 0%;
+}
+
+.sitetitle span {
+    font-size: 32px;
+    line-height: 36px;
+    color: #555658;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sitedescription {
+    font-size: 13px;
+    line-height: 15px;
+    color: #8c8c8c;
+    margin-top: -13px;
+
+}
+
+.introduction {
+    background-image: url(../images/mb.jpg);
+    background-size: cover;
+    height: 560px;
+    width: -webkit-fill-available;
+    border-top: 2px solid #3b9ad7;
+    background-position: center;
+    margin-top: -43px;
+}
+
+.introdescription {
+    font-family: cursive;
+    background-color: #161716;
+    height: 200px;
+    padding: 26px;
+    opacity: 0.5;
+    margin-top: 134px;
+    margin-left: 40px;
+}
+.firstif{
+    color: beige;
+}
+.secondif {
+    color: beige;
+}
+.sir-intro-img {
+    width: 500px;
+}
+
+.batch-info {
+    margin-top: -45px;
+    margin-left: 64px;
+}
+
+.box-list-container {
+    margin-left: 7px;
+}
+.box-list {
+    margin-left: 10px;
+}
+.box-list-item {
+    display: inline-block;
+}
+.box {
+    height: 241px;
+    width: 276px;
+    padding-top: 22px;
+    margin-right: 3%;
+    color: #312e2e;
+
+}
+
+.box-1 {
+    background-color:lightskyblue;
+}
+.box-2 {
+    background-color: #fc6042;
+}
+.box-3 {
+    background-color: plum;
+}
+.box-4 {
+    background-color: hotpink;
+}
+
+.whytochooseusimage {
+    background-image: url(../images/whytochooseus.jpg);
+    background-size: cover;
+    height: 450px;
+    width: -webkit-fill-available;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ongoing-betches {
+    background-image: url(../images/timetable.jpg);
+    background-size: cover;
+    height: 450px;
+    width: -webkit-fill-available;
+    background-position: center;
+    background-attachment: fixed;
+}
+dt,dd {
+    display: inline-block;
+}
+.contect-link {
+    color: black;
+    border: 1px solid;
+    width: 28px !important;
+    height: 24px;
+}
+
+.gallery-section-container
+{
+    background: #888080;
+    padding-bottom: 29px;
+}
+
+.carousel-inner img {
+
+    width: 100%;
+    height: 700px;
+    
+}
+.gallery-img {
+    max-width: 1110px;
+    max-height: 500px;
+}
+.site-footer {
+    background: #1f1f1f;
+}
+.copiright {
+    font-size: 14px;
+}
+                                  /* For small screens */
+@media(max-width: 710px) {  
+    .mobilenumber {
+        margin-left: 6px;
+    }
+    .siteheading {
+        text-align: center;
+    }
+    .sitedescription{
+        margin-left: 0px;
+    }
+    .introduction {
+        margin-top: 0px;
+        height: 500px;
+    } 
+    .introdescription {
+        margin-top: 55px;
+        height: 366px;
+        width: 78%;
+    }
+    .batch-info {
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .box-list-container {
+        margin-left: 0px;
+    }
+    .box-list {
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .box-list-item {
+        width: -webkit-fill-available;
+    }
+    .box {
+        height: 317px;
+        width: -webkit-fill-available;
+        padding-top: 56px;
+        margin: 0;
+    
+    }
+
+    .whytochooseusimage {
+        display: none;
+    }
+
+    .ongoing-betches {
+        height: 550px;
+    }
+    .carousel-inner img {
+
+        width: 100%;
+        height: 400px;
+        
+    }
+
+
+
+}
+                                  /*For big screens  */
+@media(min-width: 710px) {
+
+    .mo-num {
+        margin-left: 61px !important;
+    }
+    .siteheading {
+        margin-left: 77px;
+        margin-bottom: 77px;
+    }
+    .quik-links {
+        margin-right: 30px;
+    }
+}
+
+
+/* 
+ <section class="row">
+      <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(../images/yadavsir.jpg)"></div>
+    </section>
+
+*/

@@ -1,0 +1,169 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #5d5d5d;
+    font-size: 18px;
+    line-height: 28px;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbarstyle {
+    padding: 2px;
+    background-color:#3b9ad7;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#navbarDropdown {
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    margin: 7px;
+}
+
+.navbar-collapse {
+    flex-basis: 0%;
+}
+
+.sitetitle span {
+    font-size: 32px;
+    line-height: 36px;
+    color: #555658;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sitedescription {
+    font-size: 13px;
+    line-height: 15px;
+    color: #8c8c8c;
+    margin-top: -13px;
+
+}
+
+.introduction {
+    background-size: cover;
+    height: 560px;
+    width: -webkit-fill-available;
+    border-top: 2px solid #3b9ad7;
+    background-position: center;
+    margin-top: -43px;
+}
+
+
+
+
+.ongoing-betches {
+    background-image: url(../images/timetable.jpg);
+    background-size: cover;
+    height: 450px;
+    width: -webkit-fill-available;
+    background-position: center;
+    background-attachment: fixed;
+}
+dt,dd {
+    display: inline-block;
+}
+.contect-link {
+    color: black;
+    border: 1px solid;
+    width: 28px !important;
+    height: 24px;
+}
+
+.gallery-section-container
+{
+    background: #888080;
+    padding-bottom: 29px;
+}
+
+.carousel-inner img {
+
+    width: 100%;
+    height: 700px;
+    
+}
+.gallery-img {
+    max-width: 1110px;
+    max-height: 500px;
+}
+.site-footer {
+    background: #1f1f1f;
+}
+.copiright {
+    font-size: 14px;
+}
+.info-row {
+    margin-top: 105px !important;
+}
+.intallment-table {
+    margin-top: -66px !important;
+}
+                                  /* For small screens */
+@media(max-width: 710px) {  
+    
+    .mobilenumber {
+        margin-left: 6px;
+    }
+    .siteheading {
+        text-align: center;
+    }
+    .sitedescription{
+        margin-left: 0px;
+    }
+    .introduction {
+        margin-top: 0px;
+        height: 700px;
+    } 
+
+    .ongoing-betches {
+        height: 550px;
+    }
+    .carousel-inner img {
+
+        width: 100%;
+        height: 400px;
+    }
+    .info-row {
+        margin-top: 40px !important;
+    }
+
+    .intallment-table {
+        margin-top: 15px !important;
+    }
+
+
+
+}
+                                  /*For big screens  */
+@media(min-width: 710px) {
+
+    .mo-num {
+        margin-left: 61px !important;
+    }
+    .siteheading {
+        margin-left: 77px;
+        margin-bottom: 77px;
+    }
+    .quik-links {
+        margin-right: 30px;
+    }
+}
+
+
+
+/* 
+<dl class="dl-horizontal">
+                    <dt style="">Director: </dt>
+                    <dd style="font-style: italic;">Prushottam Yadav</dd>
+                    <br>
+                    <dt style="">Address: </dt>
+                    <dd>
+                      <address style="font-style: italic;">Krshnapura tikari, Betul, MP, INDIA </address>
+                    </dd>
+                  </dl>
+ */
